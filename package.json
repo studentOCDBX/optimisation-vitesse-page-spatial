@@ -1,0 +1,21 @@
+{
+  "name": "optimisation-vitesse-page-spatial",
+  "version": "1.0.0",
+  "description": "My Web site Optimization lesson",
+  "main": "index.js",
+  "scripts": {
+    "minimize": "postcss ./assets/css/main.css -u cssnano -o ./assets/css/minimize.css"
+  },
+  "author": "Nazaire DARBOUX",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^5.1.14",
+    "imagemin": "^8.0.1",
+    "imagemin-mozjpeg": "^10.0.0",
+    "postcss": "^8.4.19",
+    "postcss-cli": "^10.1.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
